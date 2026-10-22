@@ -9,140 +9,145 @@
 <link rel="icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Caveat:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<p class="topbar">Das ganze Jahr: <b>Einzelstücke zum halben Preis</b> · Überlängen bis <b>L38</b> · Weiten bis <b>W48</b></p>
+<div class="topbar">
+  <div class="wrap">
+    <span>Mo – Fr <strong>10 – 18 Uhr</strong> · Sa <strong>10 – 16 Uhr</strong><span class="hide-s"> · Wandsbeker Allee 68</span></span>
+    <span><a href="tel:+494068915830">Tel. 040 – 68 91 58 30</a></span>
+  </div>
+</div>
 
 <header>
   <nav class="wrap nav" aria-label="Hauptnavigation">
-    <a href="index.html" class="logo"><img src="img/logo.png" alt="Jeans House – zur Startseite" width="84" height="46"></a>
-    <button class="menu-btn" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <a href="index.html" class="logo"><img src="img/logo.png" alt="Jeans House – zur Startseite" width="95" height="52"></a>
+    <button class="menu-btn" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <ul id="menu">
       <li><a href="index.html">Startseite</a></li>
       <li><a href="wir-lieben-jeans.html" aria-current="page">Wir lieben Jeans</a></li>
       <li><a href="beratung.html">Beratung</a></li>
       <li><a href="kontakt.html">Kontakt</a></li>
     </ul>
-    <a href="beratung.html#termin" class="btn btn-yellow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Beratungstermin</a>
+    <a href="beratung.html#termin" class="btn btn-red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Beratungstermin</a>
   </nav>
 </header>
 
 <main>
-  <section class="page-hero">
-    <div class="wrap hero-grid">
-      <div>
+  <section class="hero">
+    <img src="img/paar-sofa.jpg" alt="Paar in Jeans auf einem Sofa">
+    <div class="wrap">
+      <div class="hero-card">
         <p class="crumbs"><a href="index.html">Startseite</a> / Wir lieben Jeans</p>
-        <p class="hand kicker">Nur eine Hose?</p>
-        <h1><span class="scribble">Von wegen!<svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true"><path d="M2 8c40-6 90-7 196-3" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></span></h1>
-        <p class="lead">Die Jeans gehört zu den meistverkauften Kleidungsstücken der Welt. Kein Wunder: Sie trägt sich durch alle Kulturen und steht für Freiheit – auch beim Styling.</p>
-        <div class="hero-actions">
-          <a href="#philosophie" class="btn btn-red">Unsere Philosophie →</a>
-          <a href="beratung.html#termin" class="btn btn-light">Beratung vereinbaren</a>
-        </div>
-      </div>
-      <div class="collage">
-        <figure class="polaroid p1"><img src="img/frau-highwaist.jpg" alt="Frau in hoch geschnittener Bluejeans"><figcaption>High Waist</figcaption></figure>
-        <figure class="polaroid p2"><img src="img/mann-weste.jpg" alt="Mann in heller Jeans und Jeansweste"><figcaption>Denim on Denim</figcaption></figure>
-        <p class="sticker years"><span><svg viewBox="0 0 24 24" width="34" height="34" fill="currentColor" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 3 4.5 6.7 4.5c2.1 0 3.6 1.2 5.3 3.1 1.7-1.9 3.2-3.1 5.3-3.1 3.7 0 5.8 3.9 4.3 7.3C19.5 16.4 12 21 12 21z"/></svg><small>Jeans</small></span></p>
+        <p class="eyebrow">Wir lieben Jeans</p>
+        <h1>Nur eine Hose? Von wegen!</h1>
+        <p>Die Jeans gehört zu den meistverkauften Kleidungsstücken der Welt. Kein Wunder: Sie trägt sich durch alle Kulturen und steht für Freiheit – auch beim Styling.</p>
+        <div class="actions"><a href="#looks" class="btn btn-red">Looks entdecken</a><a href="beratung.html#termin" class="btn btn-outline">Beratung vereinbaren</a></div>
       </div>
     </div>
   </section>
 
+  <div class="logo-strip" aria-hidden="true"><div class="logo-track"><img src="img/marken/levis.png" alt="" height="34"><img src="img/marken/wrangler.png" alt="" height="34"><img src="img/marken/lee.png" alt="" height="34"><img src="img/marken/mac.png" alt="" height="34"><img src="img/marken/pioneer.png" alt="" height="34"><img src="img/marken/paddocks.png" alt="" height="34"><img src="img/marken/cross.png" alt="" height="34"><img src="img/marken/blue-monkey.png" alt="" height="34"><img src="img/marken/his.png" alt="" height="34"><img src="img/marken/co.png" alt="" height="34"><img src="img/marken/viazoni.png" alt="" height="34"><img src="img/marken/dockers.png" alt="" height="34"><img src="img/marken/heimatliebe.png" alt="" height="34"><img src="img/marken/naketano.png" alt="" height="34"><img src="img/marken/vittozzi.png" alt="" height="34"><img src="img/marken/levis.png" alt="" height="34"><img src="img/marken/wrangler.png" alt="" height="34"><img src="img/marken/lee.png" alt="" height="34"><img src="img/marken/mac.png" alt="" height="34"><img src="img/marken/pioneer.png" alt="" height="34"><img src="img/marken/paddocks.png" alt="" height="34"><img src="img/marken/cross.png" alt="" height="34"><img src="img/marken/blue-monkey.png" alt="" height="34"><img src="img/marken/his.png" alt="" height="34"><img src="img/marken/co.png" alt="" height="34"><img src="img/marken/viazoni.png" alt="" height="34"><img src="img/marken/dockers.png" alt="" height="34"><img src="img/marken/heimatliebe.png" alt="" height="34"><img src="img/marken/naketano.png" alt="" height="34"><img src="img/marken/vittozzi.png" alt="" height="34"></div></div>
+
   <section id="philosophie">
-    <div class="wrap philo">
-      <img src="img/laden-innen.jpg" alt="Beratungstisch im Laden" loading="lazy">
+    <div class="wrap two-col philo">
+      <img class="photo" src="img/laden-innen.jpg" alt="Beratungstisch und Jeansregale im Laden" loading="lazy">
       <div>
-        <p class="hand kicker">Unsere Philosophie</p>
-        <h2 style="font-size:clamp(2.1rem,4.6vw,3.2rem);margin:4px 0 8px">Jeans kauft man nicht per Klick.</h2>
+        <p class="eyebrow">Unsere Philosophie</p>
+        <h2>Jeans kauft man nicht per Klick.</h2>
         <dl>
           <dt>Echt aus Wandsbek</dt>
           <dd>Seit über 30 Jahren sind wir an der Wandsbeker Allee zu Hause – ein Laden aus Hamburg, für Hamburg.</dd>
           <dt>Beratung statt Retoure</dt>
-          <dd>Ob eine Jeans passt, merkst du erst beim Anziehen. Bei uns probierst du direkt an – und gehst mit einer Hose nach Hause, die wirklich sitzt.</dd>
-          <dt>Jeans-Expertise</dt>
-          <dd>Wir kennen die Schnitte der großen Marken und wissen, welches Modell zu welcher Figur passt – auch in Überlänge und großen Weiten.</dd>
+          <dd>Ob eine Jeans passt, merkst du erst beim Anziehen. Bei uns probierst du direkt an und gehst mit einer Hose nach Hause, die wirklich sitzt.</dd>
+          <dt>Kompetent und mit Liebe zum Detail</dt>
+          <dd>Wir kennen die Schnitte der großen Marken und wissen, welches Modell zu welcher Figur passt.</dd>
         </dl>
       </div>
     </div>
   </section>
 
-  <section id="looks" class="wall">
+  <section class="bg-grey" id="looks">
     <div class="wrap">
       <div class="section-head center">
-        <p class="hand">Für jeden Anlass</p>
+        <p class="eyebrow">Für jeden Anlass</p>
         <h2>Welcher Look passt zu dir?</h2>
-        <p>Vom relaxten Boyfriend-Stil über trendige Jeans mit hohem Bund bis hin zu knöchellangen Girlfriend-Hosen – wir zeigen dir, was dir steht.</p>
+        <p>Vom relaxten Boyfriend-Stil über trendige Jeans mit hohem Bund bis hin zu knöchellangen Girlfriend-Hosen – für jeden Anlass den passenden Look.</p>
       </div>
       <div class="looks">
         <article class="look">
-          <figure><img src="img/frau-boden.jpg" alt="Frau in lockerer, zerrissener Jeans sitzt auf dem Boden" loading="lazy"><p class="hangtag"><small>Look 1</small>Boyfriend</p></figure>
-          <div><h3>Relaxt &amp; lässig</h3><p>Locker geschnitten, gern mit Used-Look. Die Jeans für Tage, an denen es einfach bequem sein soll.</p></div>
+          <img src="img/frau-boden.jpg" alt="Frau in lockerer, zerrissener Jeans sitzt auf dem Boden" loading="lazy">
+          <div><span class="eyebrow">Boyfriend</span><h3>Relaxt &amp; lässig</h3><p>Locker geschnitten, gern im Used-Look. Für Tage, an denen es einfach bequem sein soll.</p></div>
         </article>
         <article class="look">
-          <figure><img src="img/frau-highwaist.jpg" alt="Frau in Jeans mit hohem Bund" loading="lazy"><p class="hangtag"><small>Look 2</small>High Waist</p></figure>
-          <div><h3>Hoher Bund</h3><p>Trendig und figurbetont – macht lange Beine und passt super zu kurzen Oberteilen.</p></div>
+          <img src="img/frau-highwaist.jpg" alt="Frau in Jeans mit hohem Bund" loading="lazy">
+          <div><span class="eyebrow">High Waist</span><h3>Hoher Bund</h3><p>Trendig und figurbetont – streckt die Beine und passt gut zu kurzen Oberteilen.</p></div>
         </article>
         <article class="look">
-          <figure><img src="img/frau-dunkel.jpg" alt="Frau in dunkler Jeans mit Sonnenbrille am Bund" loading="lazy"><p class="hangtag"><small>Look 3</small>Girlfriend</p></figure>
-          <div><h3>Knöchellang</h3><p>Etwas kürzer, mit Sneakern oder Boots – lässig im Alltag, schick am Abend.</p></div>
+          <img src="img/frau-dunkel.jpg" alt="Frau in dunkler Jeans mit Sonnenbrille am Bund" loading="lazy">
+          <div><span class="eyebrow">Girlfriend</span><h3>Knöchellang</h3><p>Etwas kürzer, mit Sneakern oder Boots – lässig im Alltag, schick am Abend.</p></div>
         </article>
       </div>
     </div>
   </section>
 
-  <section class="sale">
-    <div class="wrap sale-grid">
-      <p class="sticker"><span>½</span></p>
+  <section class="promo">
+    <div class="wrap">
       <div>
-        <p class="hand kicker">Nur im Laden</p>
-        <h2>Einzelstücke zum halben Preis.</h2>
-        <p>Das ganze Jahr über findest du bei uns Einzelstücke für die Hälfte. Die gibt's nicht online – vorbeischauen lohnt sich also immer.</p>
+        <h2>Das Beste: Einzelstücke zum halben Preis.</h2>
+        <p>Das ganze Jahr über – und nur bei uns im Laden.</p>
       </div>
-      <a href="kontakt.html" class="btn btn-red">So findest du uns →</a>
+      <a href="kontakt.html" class="btn btn-white"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>So findest du uns</a>
     </div>
   </section>
 
-  <section>
-    <div class="wrap">
-      <div class="photo-banner">
-        <img src="img/paar-sofa.jpg" alt="Paar in Jeans auf einem Sofa" loading="lazy">
-        <div class="txt">
-          <p class="hand">Noch keinen Hosenklassiker im Schrank?</p>
-          <h2>Dann schau bei uns vorbei.</h2>
-          <p>Wir beraten dich kompetent und mit Liebe zum Detail – bis die Jeans richtig sitzt.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section style="padding-top:0">
+  <section class="band">
+    <img src="img/frau-sneaker.jpg" alt="" loading="lazy">
     <div class="wrap">
       <div class="section-head center">
-        <p class="hand">Deine Vorteile</p>
-        <h2>Darum Jeans House.</h2>
-        
+        <p class="eyebrow">Warum Jeans House?</p>
+        <h2>Deine Vorteile</h2>
+        <p>Du suchst einen treuen Begleiter für deinen Kleiderschrank? Wir beraten dich gern – ruf uns an unter 040 – 68 91 58 30.</p>
       </div>
-      <div class="notes">
-        <div class="note"><h3>Ehrliche Beratung</h3><p>Wir sagen dir, wenn's nicht sitzt – und finden zusammen eine, die's tut. Freundlich und ohne Druck.</p></div>
-        <div class="note"><h3>30+ Jahre Jeans</h3><p>Seit über 30 Jahren dreht sich bei uns alles um Denim. Vom Levi's 501 bis zur Skinny kennen wir jeden Schnitt.</p></div>
-        <div class="note"><h3>Riesige Auswahl</h3><p>15 Marken, unzählige Modelle, viele Längen und Weiten – alles unter einem Dach in Wandsbek.</p></div>
+      <div class="perks">
+        <article class="perk"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3>Freundliche &amp; kompetente Beratung</h3><p>Wir nehmen uns Zeit, hören zu und sagen ehrlich, was dir steht – ganz ohne Kaufdruck.</p></article>
+        <article class="perk"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div><h3>Mehr als 30 Jahre Erfahrung</h3><p>Seit über drei Jahrzehnten dreht sich bei uns alles um Jeans. Wir kennen jeden Schnitt.</p></article>
+        <article class="perk"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><h3>Große Auswahl verschiedener Labels</h3><p>15 Marken, viele Modelle und Waschungen – auch in Überlänge und großen Weiten.</p></article>
       </div>
     </div>
   </section>
 
-  <section class="visit">
-    <div class="wrap" style="text-align:center">
-      <div class="section-head center">
-        <p class="hand">Wir lieben Mode – du auch?</p>
-        <h2>Ruf uns an!</h2>
-        <p>Du suchst einen treuen Begleiter für deinen Kleiderschrank? Wir beraten dich gern.</p>
+  <section class="bg-grey" id="besuch">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Besuch uns</p>
+        <h2>Komm vorbei – wir freuen uns auf dich.</h2>
+        <p>Mitten in Wandsbek, direkt an der Wandsbeker Allee. Du kannst einfach reinkommen – oder dir mit einem Termin extra Zeit für die Beratung sichern.</p>
       </div>
-      <div class="hero-actions" style="justify-content:center">
-        <a href="tel:+494068915830" class="btn btn-yellow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>040 – 68 91 58 30</a>
-        <a href="beratung.html#termin" class="btn btn-light">Termin anfragen</a>
+      <div class="visit-grid">
+        <section class="card">
+          <h3>Unsere Öffnungszeiten</h3>
+          <p class="status"><i></i><span>Öffnungszeiten</span></p>
+          <table class="hours">
+            <tr data-d="1"><td>Montag</td><td>10:00 – 18:00 Uhr</td></tr>
+            <tr data-d="2"><td>Dienstag</td><td>10:00 – 18:00 Uhr</td></tr>
+            <tr data-d="3"><td>Mittwoch</td><td>10:00 – 18:00 Uhr</td></tr>
+            <tr data-d="4"><td>Donnerstag</td><td>10:00 – 18:00 Uhr</td></tr>
+            <tr data-d="5"><td>Freitag</td><td>10:00 – 18:00 Uhr</td></tr>
+            <tr data-d="6"><td>Samstag</td><td>10:00 – 16:00 Uhr</td></tr>
+            <tr data-d="0"><td>Sonntag</td><td>geschlossen</td></tr>
+          </table>
+        </section>
+        <section class="card">
+          <h3>Hier findest du uns</h3>
+          <address class="address"><strong>Jeans House Ohlrogge GmbH &amp; Co. KG</strong><br>Wandsbeker Allee 68<br>22041 Hamburg<br>Telefon: <a href="tel:+494068915830">040 – 68 91 58 30</a></address>
+          <div class="actions">
+            <a class="btn btn-red" href="beratung.html#termin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Termin vereinbaren</a>
+            <a class="btn btn-outline" href="kontakt.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Anfahrt &amp; Karte</a>
+          </div>
+        </section>
       </div>
     </div>
   </section>
@@ -152,17 +157,18 @@
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="index.html" class="foot-logo"><img src="img/logo.png" alt="Jeans House" width="73" height="40"></a>
-        <p class="hand" style="color:var(--yellow);font-size:1.5rem;line-height:1.2">Markenjeans auf 260 m² – bis bald im Laden!</p>
+        <img src="img/logo.png" alt="Jeans House" width="88" height="48">
+        <p>Markenjeans auf 260 m² in Hamburg-Wandsbek.<br>Persönliche Beratung seit über 30 Jahren.</p>
       </div>
       <section>
-        <h2 class="foot-h">Öffnungszeiten</h2>
+        <h2 class="foot-h">Unsere Öffnungszeiten</h2>
         <p>Mo – Fr: 10:00 – 18:00 Uhr<br>Sa: 10:00 – 16:00 Uhr<br>So: geschlossen</p>
       </section>
       <section>
-        <h2 class="foot-h">Kontakt</h2>
+        <h2 class="foot-h">Hier findest du uns</h2>
         <address>
           <ul>
+            <li>Jeans House Ohlrogge GmbH &amp; Co. KG</li>
             <li>Wandsbeker Allee 68, 22041 Hamburg</li>
             <li><a href="tel:+494068915830">040 – 68 91 58 30</a></li>
             <li><a href="mailto:jeanshouse.hamb@t-online.de">jeanshouse.hamb@t-online.de</a></li>
